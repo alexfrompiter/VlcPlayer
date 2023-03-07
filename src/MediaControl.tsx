@@ -10,10 +10,12 @@ export type Props = {
   paused: boolean;
   onPaused: (paused: boolean) => void;
   onChangePosition: (position: number) => void;
+  /*
   audioTrack?: number;
   onChangeAudioTrack?: (track: number) => void;
   textTrack?: number;
   onChangeTextTrack?: (track: number) => void;
+  */
 };
 
 const MediaControl: React.FC<Props> = ({

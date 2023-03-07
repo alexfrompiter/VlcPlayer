@@ -5939,8 +5939,8 @@
     "prop-types" "^15.7.2"
     "yargs" "^16.1.1"
 
-"react-native-vlc-media-player@github:alexfrompiter/react-native-vlc-media-player#dev":
-  "resolved" "git+ssh://git@github.com/alexfrompiter/react-native-vlc-media-player.git#a9067786ce063467b33965a391bd9e0295d295a8"
+"react-native-vlc-media-player@github:alexfrompiter/react-native-vlc-media-player#feature/audiotrack-and-subtitle":
+  "resolved" "git+ssh://git@github.com/alexfrompiter/react-native-vlc-media-player.git#7f6181f967758564fafe1ea306a1a249378ec0ad"
   "version" "1.0.47"
   dependencies:
     "react-native-slider" "^0.11.0"
