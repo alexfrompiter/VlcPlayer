@@ -13,10 +13,7 @@ import {VLCPlayer} from 'react-native-vlc-media-player';
 import MediaControl from './MediaControl';
 
 const sources = [
-  {
-    name: 'Manifest',
-    uri: 'https://media.axprod.net/TestVectors/v7-Clear/Manifest_1080p.mpd',
-  },
+ 
   {
     name: 'big bunny',
     uri: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
@@ -28,6 +25,10 @@ const sources = [
   {
     name: 'congress speech with audio tracks',
     uri: 'http://cdn.media.ccc.de/congress/2019/h264-hd/36c3-10505-eng-deu-fra-The_Great_Escape_of_ESXi_hd.mp4',
+  },
+  {
+    name: 'Manifest',
+    uri: 'https://media.axprod.net/TestVectors/v7-Clear/Manifest_1080p.mpd',
   },
 ];
 
